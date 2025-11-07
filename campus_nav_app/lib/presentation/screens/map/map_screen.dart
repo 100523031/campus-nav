@@ -84,7 +84,7 @@ class _MapScreenState extends State<MapScreen> {
                       },
                     ),
                     // Marcadores de edificios
-                    ...repository.buildings.map((building) {
+                    /*...repository.buildings.map((building) {
                       return _BuildingMarker(
                         building: building,
                         isSelected: repository.selectedBuilding?.id == building.id,
@@ -94,6 +94,7 @@ class _MapScreenState extends State<MapScreen> {
                         },
                       );
                     }),
+                    */
                   ],
                 ),
               ),
